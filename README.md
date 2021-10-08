@@ -24,7 +24,7 @@
 
 1. Conectarse a la máquina con certificado
     ```console
-    ssh -i ./credentials/DockerK8S-202009.pem centos@52.43.22.186
+    ssh -i ./credentials/DockerK8S-202009.pem centos@52.42.45.31
     sudo su -
     ```
 
