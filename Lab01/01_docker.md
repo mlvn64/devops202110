@@ -6,7 +6,8 @@
 
 1. Agregar git
 ```console
-    sudo dnf git
+     sudo dnf install -y git
+    git clone https://github.com/mzegarras/devops202110.git
 ```
 1. Agregar Docker-CE repositorio
     ```console
