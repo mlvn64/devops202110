@@ -7,6 +7,8 @@
 1. Iniciar docker-compose
     ```bash
     docker-compose  -f docker-compose-v1.yaml up -d
+    docker ps
+    docker logs jenkins
     docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
     docker exec -it jenkins bash
     ```

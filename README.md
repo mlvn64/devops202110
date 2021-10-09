@@ -35,3 +35,4 @@
 
 ### Preguntas:
 
+1. Listar plugins recomendados iniciales
