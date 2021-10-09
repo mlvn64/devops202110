@@ -30,25 +30,13 @@
         
 1. Crear job3
 
-    1. Crear /opt/script.sh
-    ```console
-    #!/bin/bash
-
-    NOMBRE=$1
-    APELLIDO=$2
-    MOSTRAR=$3
-
-    if [ "$MOSTRAR" = "true" ]; then
-        echo "Hola, $NOMBRE, $APELLIDO"
-    else
-        echo "Si quieres ver el nombre, selecciona MOSTRAR"
-    fi
-    ``` 
+    1. Copiar archivos
 
     ```console
+    cd ~/devops202110/Lab02
     docker cp script.sh jenkins:/opt/script.sh
     docker exec -it jenkins bash
-    ls -lt /
+    ls -lt /opt
     ``` 
     
     ```console
