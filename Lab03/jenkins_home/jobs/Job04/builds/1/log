@@ -1,0 +1,10 @@
+Started by user [8mha:////4I6Kjma7CqovQsdr0D+6Hh3gXZlIFeaFMz9BSKotRxFnAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Job04
+[Job04] $ /bin/sh -xe /tmp/jenkins1705254329144444832.sh
++ NOMBRE=DEV
++ APELLIDO=OPS
++ MOSTRAR=1
++ /opt/script.sh DEV OPS 1
+Si quieres ver el nombre, selecciona MOSTRAR
+Finished: SUCCESS

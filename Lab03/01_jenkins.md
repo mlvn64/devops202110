@@ -14,16 +14,26 @@
 
 1. Generar imagen
     ```bash
-    docker-compose  -f docker-compose-v2.yaml build
+    cd ~/devops202110/Lab03
+    docker-compose build
     ```
 
 1. Iniciar docker-compose con remote machine
     ```bash
     mkdir jenkins_home
-    docker-compose  -f docker-compose-v2.yaml up -d
+    docker-compose up -d
     docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
-    docker exec -it jenkins bash
     ```
+
+1. Seleccionar los siguientes plugins
+    1. Login
+    1. Manage Jenkins
+    1. Manage Plugins
+    1. Clic Avialable
+    1. Buscar Plugin: "ssh "
+
+
+
 1. Conectarse a máquina remota
     ```bash
     docker ps
