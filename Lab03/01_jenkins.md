@@ -30,7 +30,9 @@
     1. Manage Jenkins
     1. Manage Plugins
     1. Clic Avialable
-    1. Buscar Plugin: "ssh "
+    1. Buscar Plugin: 
+        * Name: ssh
+        * Descripcion: This plugin executes shell commands remotely using SSH protocol.
 
 
 
@@ -56,7 +58,7 @@
     1. Configure System
     1. Ir a la sección "SSH remote hosts"
     1. Clic en add
-    1. Hostname: "remote-host (Definido en docker-compose-v2.yaml/services/remote_host/)" 
+    1. Hostname: "remote-host (Definido en docker-compose.yaml/services/remote_host/)" 
 
 1. Crear credenciales
     1. Manage Jenkins
