@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  maven:
+    container_name: maven
+    image: maven:3.8.3-openjdk-11
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    command: bash
+  gradle:
+    container_name: gradle
+    image: gradle:jdk11
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    command: bash
