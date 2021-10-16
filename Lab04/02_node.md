@@ -1,4 +1,4 @@
-# Maven
+# Node
 ## Settings
 
 1. Instalar plugins Node
