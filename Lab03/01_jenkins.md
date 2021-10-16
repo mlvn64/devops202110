@@ -25,16 +25,6 @@
     docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
     ```
 
-1. Seleccionar los siguientes plugins
-    1. Login
-    1. Manage Jenkins
-    1. Manage Plugins
-    1. Clic Avialable
-    1. Buscar Plugin: 
-        * Name: ssh
-        * Descripcion: This plugin executes shell commands remotely using SSH protocol.
-
-
 
 1. Conectarse a máquina remota
     ```bash
@@ -50,8 +40,9 @@
     1. Manage Jenkins
     1. Manage Plugins
     1. Clic Avialable
-    1. Buscar Plugin: "ssh "
-
+    1. Buscar Plugin: 
+        * Name: ssh
+        * Descripcion: This plugin executes shell commands remotely using SSH protocol.
 
 1. Configurar ssh
     1. Manage Jenkins
