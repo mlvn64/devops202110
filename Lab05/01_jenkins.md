@@ -1,4 +1,4 @@
-# Jenkins as docker
+# Jenkins con docker
 
 ## Settings
 
