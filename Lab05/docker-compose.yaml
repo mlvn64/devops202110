@@ -2,6 +2,7 @@ version: "3.8"
 services:
   jenkins:
     container_name: jenkins
+    image: mzegarra/jenkins:1.0.0
     build:
       context: jenkins
     image: jenkins/docker
