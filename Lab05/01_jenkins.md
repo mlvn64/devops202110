@@ -16,5 +16,5 @@
     1. Manage Jenkins
     1. Manage Plugins
     1. Clic Avialable
-    1. Buscar Plugin: "Pipeline" , "Docker Pipeline"
+    1. Buscar Plugin: "Pipeline" , "Docker Pipeline","Stage View"
 
