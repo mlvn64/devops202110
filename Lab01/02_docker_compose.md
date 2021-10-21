@@ -25,8 +25,11 @@
 1. Agregar acceso directo
     ```console
     sudo groupadd docker
+    sudo usermod -a -G docker $USER
     sudo chmod 666 /var/run/docker.sock
     sudo service docker restart
+    systemctl is-active docker
+    docker run hello-world
     docker run -p 8080:80 nginx
     ```
 
