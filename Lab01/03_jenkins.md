@@ -1,8 +1,8 @@
 1. Agregar git
-```console
-     sudo dnf install -y git
+    ```console
+    sudo dnf install -y git
     git clone https://github.com/mzegarras/devops202110.git
-```
+    ```
 
 1. Preparación:
     ```bash

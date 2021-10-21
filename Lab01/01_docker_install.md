@@ -21,10 +21,11 @@
     ```console
     docker --version
     ```
-    
+
 1. Verificar permisos
     ```console
     sudo docker run -p 8080:80 nginx
+    CTRL + C
     ```
     
 1. Fix permisos
