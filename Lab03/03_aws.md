@@ -31,7 +31,8 @@
 
     * Nombre: job5-aws
     * Description: job en aws
-            * Build --> Execute shell script on remote host using shh -->
+            * Build --> Execute shell script on remote host using shh
+            
             ```bash
             NOMBRE_APELLIDO="manuel_zegarra"
             mkdir -p /tmp/data/${NOMBRE_APELLIDO}
