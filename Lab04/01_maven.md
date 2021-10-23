@@ -25,7 +25,7 @@
         ```bash         
         mvn --version
         ```
-1. Crear job6-maven
+1. Update job6-maven
     * Crear proyecto del estilo libre.
         * Nombre: job6-maven
         * Description: Maven demo
@@ -40,3 +40,8 @@
         * Post-buil Actions
             * Add post build actions: Archive the artifacts
             * Files to archive: target/*.jar
+1. Update job6-maven
+    * Nombre: job6-maven
+    * Post-buil Actions
+        * Add Publish JUnit test result report
+        * Test report XMLs: target/surefire-reports/*.xml
