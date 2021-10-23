@@ -32,7 +32,34 @@
     * Crear proyecto del estilo libre.
         * Nombre: job6-gradle
         * Description: Gradle demo
+        * Source Code Management: Git
+            * Repository: https://github.com/mzegarras/labmaven.git
+            * Branch: */master        
         * Build --> Invoke Gradle script--> 
         ```bash         
         gradle --version
         ```
+
+
+1. Update job6-gradle
+    * Crear proyecto del estilo libre.
+        * Nombre: job6-maven
+        * Description: Maven demo
+        * Source Code Management: Git
+            * Repository: https://github.com/mzegarras/labgradle.git
+            * Branch: */master
+        * Build --> Invoke gradle script --> 
+        * Gradle version: gradle-default
+        ```bash         
+        build
+        ```
+        * Post-buil Actions
+            * Add post build actions: Archive the artifacts
+            * Files to archive: build/libs/labgradle-*-SNAPSHOT.jar
+1. Update job6-gradle
+    * Nombre: job6-gradle
+    * Post-buil Actions
+        * Add Publish JUnit test result report
+        * Test report XMLs: **/build/test-results/test/TEST-*.xml
+
+1. Instalar plugin: "Workspace Cleanup"
