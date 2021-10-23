@@ -14,6 +14,7 @@
     1. Manage Plugins
     1. Clic Avialable
     1. Buscar Plugin: "Maven Integration"
+    1. Buscar Plugin: "Git"
 
 # JOBS
 1. Crear job6-maven
@@ -23,4 +24,19 @@
         * Build --> Invoke top-level Maven targest --> 
         ```bash         
         mvn --version
-        ```        
+        ```
+1. Crear job6-maven
+    * Crear proyecto del estilo libre.
+        * Nombre: job6-maven
+        * Description: Maven demo
+        * Source Code Management: Git
+            * Repository: https://github.com/mzegarras/labmaven.git
+            * Branch: */master
+        * Build --> Invoke top-level Maven targest --> 
+        * Maven version: maven
+        ```bash         
+        package
+        ```
+        * Post-buil Actions
+            * Add post build actions: Archive the artifacts
+            * Files to archive: target/*.jar
