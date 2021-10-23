@@ -1,6 +1,4 @@
-Notas:
-    Qué son plugings
-    Vault de jenkins y scope
+# Jenkins AWS
 
 1. El docente facilitará el pem y la máquina ec2
     ```
@@ -9,15 +7,15 @@ Notas:
 
 1. Crear credentiales aws
 
-* Manage Jenkins
-* Manage credentials
-* Stores scope: "Jenkins"
-* Clic "Global credentials"
-* Clic en "Add credentials"
-* "Kind": "SSH UserName with PrivateKey"
-* "Id": aws-dev
-* Username: ec2-user
-* Private Key: copiar contenido de PEM
+    * Manage Jenkins
+    * Manage credentials
+    * Stores scope: "Jenkins"
+    * Clic "Global credentials"
+    * Clic en "Add credentials"
+    * "Kind": "SSH UserName with PrivateKey"
+    * "Id": aws-dev
+    * Username: ec2-user
+    * Private Key: copiar contenido de PEM
 
 1. Configurar remote host en aws
 
@@ -44,3 +42,8 @@ Notas:
 
                 mv precomposed.png /tmp/data/${NOMBRE_APELLIDO}/data.zip
                 ```
+
+
+Notas:
+    Qué son plugings
+    Vault de jenkins y scope
