@@ -32,16 +32,16 @@
     * Nombre: job5-aws
     * Description: job en aws
             * Build --> Execute shell script on remote host using shh -->
-                ```bash
-                NOMBRE_APELLIDO="manuel_zegarra"
-                mkdir -p /tmp/data/${NOMBRE_APELLIDO}
-                curl https://www.python.org/static/apple-touch-icon-144x144-precomposed.png -o precomposed.png
-                mv precomposed.png /tmp/data/${NOMBRE_APELLIDO}/precomposed.png
+            ```bash
+            NOMBRE_APELLIDO="manuel_zegarra"
+            mkdir -p /tmp/data/${NOMBRE_APELLIDO}
+            curl https://www.python.org/static/apple-touch-icon-144x144-precomposed.png -o precomposed.png
+            mv precomposed.png /tmp/data/${NOMBRE_APELLIDO}/precomposed.png
 
-                curl https://assets.datacamp.com/production/repositories/4180/datasets/eb1d6a36fa3039e4e00064797e1a1600d267b135/201812SpotifyData.zip -o data.zip
+            curl https://assets.datacamp.com/production/repositories/4180/datasets/eb1d6a36fa3039e4e00064797e1a1600d267b135/201812SpotifyData.zip -o data.zip
 
-                mv precomposed.png /tmp/data/${NOMBRE_APELLIDO}/data.zip
-                ```
+            mv precomposed.png /tmp/data/${NOMBRE_APELLIDO}/data.zip
+            ```
 
 
 Notas:
