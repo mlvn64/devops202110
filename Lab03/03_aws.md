@@ -42,8 +42,3 @@
 
         mv precomposed.png /tmp/data/${NOMBRE_APELLIDO}/data.zip
         ```
-
-
-Notas:
-    Qué son plugings
-    Vault de jenkins y scope
