@@ -42,3 +42,8 @@
 
         mv precomposed.png /tmp/data/${NOMBRE_APELLIDO}/data.zip
         ```
+
+1. Limpieza
+ ```bash
+ docker-compose down
+ ```
