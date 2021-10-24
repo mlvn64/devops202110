@@ -3,8 +3,12 @@
 ## Settings
 
 1. Generar imagen
-    ```bash         
+    ```bash   
     docker-compose build
+    ``` 
+1. Generar imagen
+    ```bash         
+    docker-compose push jenkins
     rm -fr jenkins_home
     mkdir jenkins_home
     docker-compose up -d
