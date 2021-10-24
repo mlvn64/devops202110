@@ -45,3 +45,4 @@
     * Post-buil Actions
         * Add Publish JUnit test result report
         * Test report XMLs: target/surefire-reports/*.xml
+1. Coverage
