@@ -9,14 +9,14 @@
 1. Install docker With Homebrew Cask
 
     ```bash
-    brew cask install docker
+    brew install --cask docker
     docker --version
     docker run hello-world
     ```
     
 1. Install docker-compose
     ```bash
-    brew install docker-compose
+    brew install --cask docker-compose
     docker compose --version
 
     ```
