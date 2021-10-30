@@ -11,7 +11,7 @@ services:
       - net
   remote_host:
     container_name: remote-host
-    image: remote-host
+    image: mzegarra/remote-host
     build:
       context: centos8
     networks:
