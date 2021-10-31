@@ -27,16 +27,11 @@
             }
         }
         ```
-1. Crear job08-as-code docker
-    * Crear proyecto del estilo Pipeline.
-        * Nombre: job08-as-code
-        * Description: Pipeline as code
-        * Pipeline script
+1. Update job08-as-code docker
         ```Groovy  
-
         pipeline {
             agent any
-            
+
             stages {
                 stage('Build') {
                     agent {
@@ -53,4 +48,21 @@
             }
         }
         ```          
-        
+1. Update job08-as-code docker
+        ```Groovy  
+        pipeline {
+            agent {
+                docker {
+                    image 'maven:3.8.1-adoptopenjdk-11'
+                    args '-v $HOME/.m2:/root/.m2'
+                }
+            }
+            stages {
+                stage('Build') {
+                    steps {
+                        sh 'mvn -B'
+                    }
+                }
+            }
+        }
+        ``` 
