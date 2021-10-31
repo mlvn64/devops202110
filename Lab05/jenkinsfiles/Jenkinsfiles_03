@@ -1,15 +1,7 @@
 pipeline {
     agent none
     stages {
-        
-        stage('feature-branch-stuff') {
-            when {
-                branch 'features/*'
-            }
-            steps {
-                echo 'run this stage - only if the branch name started with feature/'
-            }
-        }
+
 
         stage ("Clone source") {
             
@@ -21,7 +13,7 @@ pipeline {
             }
 
             steps{
-                 git branch: 'master',
+                git branch: 'master',
                             url: 'https://github.com/mzegarras/labmaven.git'
                  sh 'mvn -Dmaven.test.failure.ignore clean package'
 
@@ -31,6 +23,8 @@ pipeline {
                  )
             }
         }
+
+        
         stage ("Publish report") {
             agent any
              steps{
