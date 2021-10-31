@@ -3,8 +3,9 @@
     * Crear proyecto del estilo Pipeline.
         * Nombre: job6-maven
         * Description: Maven demo
-        * Pipeline
-        ```dsl class:"lineNo"     
+        * Pipeline script
+        ```dsl
+        # script 
         pipeline {
             agent any 
             stages {
@@ -16,3 +17,5 @@
             }
         }
         ```
+1. Snippet Generator
+http://localhost:8080/pipeline-syntax/
