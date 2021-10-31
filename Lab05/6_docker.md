@@ -1,8 +1,8 @@
 # Docker como agente
 
 1. Verificar plugins:
-    "pipeline"
-    "Docker Pipeline"
+    * "pipeline"
+    * "Docker Pipeline"
     
 1. Crear job08-as-code docker
     * Crear proyecto del estilo Pipeline.
@@ -49,7 +49,7 @@
         }
         ```          
 1. Update job08-as-code docker
-
+    * Pipeline script
         ```Groovy
         pipeline {
             agent {
