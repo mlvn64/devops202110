@@ -61,7 +61,7 @@
                     steps {
                         sh('echo CRED: ${GIT_CREDS}')  
                         sh('echo USER: ${GIT_CREDS_USR}')  
-                        sh('echo PWD: ${GIT_CREDS_PWD}')  
+                        sh('echo PWD: ${GIT_CREDS_PSW}')  
                     }
                 }
             }
