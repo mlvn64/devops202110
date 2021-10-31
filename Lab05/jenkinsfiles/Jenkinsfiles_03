@@ -1,7 +1,18 @@
 pipeline {
     agent none
     stages {
+        
+        stage('feature-branch-stuff') {
+            when {
+                branch 'features/*'
+            }
+            steps {
+                echo 'run this stage - only if the branch name started with feature/'
+            }
+        }
+
         stage ("Clone source") {
+            
              agent {
                 docker {
                     image 'maven:3.8.1-adoptopenjdk-11'
