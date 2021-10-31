@@ -8,3 +8,12 @@
 
 1. En visual studio code, instalar plugin
     1. Jenkins Pipeline Linter Connector
+
+1. Configurar vs code
+    1. Preferences-->Settings
+    1. Buscar: Jenkins Pipeline Linter Connector
+    1. Parámetros:
+        * Conector url : http://localhost:8080/pipeline-model-converter/validate
+        * user: admin
+        * password: admin
+    1. Command Palette: "Validate Jenkinsfile"
