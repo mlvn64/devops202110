@@ -63,3 +63,6 @@ http://localhost:8080/pipeline-syntax/
         * SCM: Git
         * Repository Url: 
         * Script Paht: Lab05/jenkinsfiles/Jenkinsfile_01
+
+1. RETO *Crear job04-as-code*
+    * Usando el jenkinsfile jenkinsfiles/Jenkinsfile_02
