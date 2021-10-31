@@ -21,7 +21,7 @@
         * Password: P@ssw0rd
         * Id: git-user
 
-1. Crear job07-as-code usando variables
+1. Crear job07-as-code credentials
     * Crear proyecto del estilo Pipeline.
         * Nombre: job07-as-code
         * Description: Pipeline as code
