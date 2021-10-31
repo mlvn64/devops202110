@@ -1,6 +1,10 @@
 # Docker como agente
 
-1. Crear job07-as-code credentials
+1. Verificar plugins:
+    "pipeline"
+    "Docker Pipeline"
+    
+1. Crear job07-as-code docker
     * Crear proyecto del estilo Pipeline.
         * Nombre: job07-as-code
         * Description: Pipeline as code
