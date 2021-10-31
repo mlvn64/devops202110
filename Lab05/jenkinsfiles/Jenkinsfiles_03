@@ -1,33 +1,22 @@
 pipeline {
     agent none
     stages {
-        stage ("Clone") {
-            agent any
-
-             steps{
-                git branch: 'master',
-                            url: 'https://github.com/mzegarras/labmaven.git'
-                
-                stash name:'scm', includes:'*'
-             }
-        }
-        stage ("Build") {
-            agent {
+        stage ("Clone source") {
+             agent {
                 docker {
                     image 'maven:3.8.1-adoptopenjdk-11'
                     args '-v /tmp/.m2:/root/.m2'
-                    
                 }
             }
+
             steps{
-                
-                 unstash 'scm'
-                 
+                 git branch: 'master',
+                            url: 'https://github.com/mzegarras/labmaven.git'
                  sh 'mvn -Dmaven.test.failure.ignore clean package'
 
                  stash(
                      name:"build-test-artifacts",
-                     includes: "**/target/surefire-reports/TEST-*.xml,target/*.jar,target/*.exec"
+                     includes: "**/target/surefire-reports/TEST-*.xml,target/*.jar,"
                  )
             }
         }
