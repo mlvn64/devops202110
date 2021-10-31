@@ -67,3 +67,5 @@
             }
         }
         ```
+1. [Documentación](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/   ) - Documentación oficial
+     
