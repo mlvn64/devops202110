@@ -4,7 +4,7 @@ services:
     container_name: jenkins
     image: mzegarra/jenkins:1.0.0
     build:
-      context: jenkins
+      context: jenkins_docker
     ports:
       - 8080:8080
     user: "root:jenkins"
