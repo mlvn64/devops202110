@@ -50,6 +50,7 @@
         }
         ```          
 1. Update job08-as-code docker
+
         ```Groovy  
         pipeline {
             agent {
