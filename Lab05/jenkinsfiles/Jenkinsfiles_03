@@ -16,16 +16,26 @@ pipeline {
 
                  stash(
                      name:"build-test-artifacts",
-                     includes: "**/target/surefire-reports/TEST-*.xml,target/*.jar"
+                     includes: "**/target/surefire-reports/TEST-*.xml,target/*.jar,target/*.exec"
                  )
             }
         }
-        stage ("Publih report") {
+        stage ("Publish report") {
             agent any
              steps{
                  unstash "build-test-artifacts"
+
                  junit "**/target/surefire-reports/TEST-*.xml"
+
                  archiveArtifacts(artifacts: "target/*.jar",onlyIfSuccessful:true)
+
+                 jacoco( 
+                    execPattern: 'target/*.exec',
+                    classPattern: 'target/classes',
+                    sourcePattern: 'src/main/java',
+                    exclusionPattern: 'src/test*'
+                )
+
              }
         }
     }
