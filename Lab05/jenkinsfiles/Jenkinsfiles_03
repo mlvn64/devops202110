@@ -1,9 +1,10 @@
 pipeline {
     agent none
     stages {
-        stage ("Build and test") {
+        stage ("Clone source") {
             steps{
-                echo "hola"
+                 git branch: 'master',
+                            url: 'https://github.com/mzegarras/labmaven.git'
             }
         }
     }
