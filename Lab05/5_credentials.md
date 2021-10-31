@@ -37,8 +37,8 @@
                         /* WRONG! */
                         //sh("curl -u ${EXAMPLE_CREDS_USR}:${EXAMPLE_CREDS_PSW} https://example.com/")
                         //echo "AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID"
-                        //echo "AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY"
-                        
+                        echo 'AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY'
+
                         /* CORRECT! */
                         //h('curl -u $EXAMPLE_CREDS_USR:$EXAMPLE_CREDS_PSW https://example.com/')
                         
