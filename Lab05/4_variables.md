@@ -50,7 +50,7 @@
                         echo "CC: ${CC} - VERSION:${VERSION} - NAME_ARTIFACT:${NAME_ARTIFACT}"
                     }
                 }
-                stage('Stage 2') {
+                stage('Stage 3') {
                     environment { 
                         DEBUG_FLAGS = '-g'
                     }
