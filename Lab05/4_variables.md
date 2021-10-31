@@ -1,5 +1,4 @@
-# JOBS AS CODE
-## Environment variables
+# Environment variables
 
 1. Crear job05-as-code usando variables
     * Crear proyecto del estilo Pipeline.
@@ -22,8 +21,6 @@
             }
         }
         ```
-
-## Environment variables
 1. Crear job06-as-code usando variables
     * Crear proyecto del estilo Pipeline.
         * Nombre: job06-as-code
