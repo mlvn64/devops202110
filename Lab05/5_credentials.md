@@ -52,7 +52,7 @@
                     }
                 }
 
-                stage('GIT){
+                stage('GIT') {
                      environment {
                         GIT_CREDS = credentials('git-user')
                         
