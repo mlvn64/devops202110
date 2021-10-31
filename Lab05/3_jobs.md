@@ -6,7 +6,7 @@
         * Description: Pipeline as code
         * Pipeline script
         ```dsl
-        # script 
+        // comentario
         pipeline {
             agent any 
             stages {
@@ -28,7 +28,7 @@ http://localhost:8080/pipeline-syntax/
         * Description: Pipeline as code
         * Pipeline script
         ```dsl
-        # script 
+        // comentario
         pipeline {
             // Cualquier agente
             agent none
