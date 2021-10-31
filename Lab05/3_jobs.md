@@ -62,3 +62,4 @@ http://localhost:8080/pipeline-syntax/
         * Pipeline: Pipeline script from SCM
         * SCM: Git
         * Repository Url: 
+        * Script Paht: Lab05/jenkinsfiles/Jenkinsfile_01
