@@ -55,3 +55,10 @@ http://localhost:8080/pipeline-syntax/
         }
         ```
 
+1. Crear job03-as-code
+    * Crear proyecto del estilo Pipeline.
+        * Nombre: job03-as-code
+        * Description: Pipeline as code
+        * Pipeline: Pipeline script from SCM
+        * SCM: Git
+        * Repository Url: 

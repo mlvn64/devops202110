@@ -4,3 +4,4 @@
     1. Manage Plugins
     1. Clic Avialable
     1. Buscar Plugins: "Pipeline"
+    1. Buscar Plugins: "Git"
