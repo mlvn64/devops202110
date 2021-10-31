@@ -9,7 +9,6 @@
         * Nombre: job08-as-code
         * Description: Pipeline as code
         * Pipeline script
-
         ```Groovy         
         pipeline {
             // imagen node
