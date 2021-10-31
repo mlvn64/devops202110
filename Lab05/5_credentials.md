@@ -35,14 +35,13 @@
                     steps {
                         
                         /* WRONG! */
-                        //sh("curl -u ${EXAMPLE_CREDS_USR}:${EXAMPLE_CREDS_PSW} https://example.com/")
+                        //'hello; ls /'
                         //echo "AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID"
-                        echo 'AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY'
-
-                        /* CORRECT! */
-                        //h('curl -u $EXAMPLE_CREDS_USR:$EXAMPLE_CREDS_PSW https://example.com/')
                         
 
+                        /* CORRECT! */
+                        
+                        echo 'AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY'
                         sh('echo AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}')
                         sh('echo AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}')
 
