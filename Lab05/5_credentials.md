@@ -33,10 +33,8 @@
             stages {
                 stage('AWS') {
                     steps {
-                        echo "BUILD_ID: ${env.BUILD_ID} - BUILD_NUMBER:${env.BUILD_NUMBER}"
-                        echo "BUILD_TAG: ${env.BUILD_TAG} - BUILD_URL:${env.BUILD_URL}"
-                        echo "JOB_NAME: ${env.JOB_NAME}"
-                        echo "NODE_NAME: ${env.NODE_NAME} - WORKSPACE:${env.WORKSPACE}"
+                        echo "AWS_ACCESS_KEY_ID: ${env.AWS_ACCESS_KEY_ID}"
+                        echo "AWS_SECRET_ACCESS_KEY: ${env.AWS_SECRET_ACCESS_KEY}"
                     }
                 }
             }
