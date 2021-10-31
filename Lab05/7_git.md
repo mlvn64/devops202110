@@ -7,9 +7,11 @@
         * Pipeline script
         ```Groovy         
         pipeline {
-            // imagen node
-            agent {
-                docker { image 'node:latest' }
+             agent {
+                docker {
+                    image 'maven:3.8.1-adoptopenjdk-11'
+                    args '-v /tmp/.m2:/root/.m2'
+                }
             }
 
             stages {
