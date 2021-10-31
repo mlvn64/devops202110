@@ -27,7 +27,7 @@
         }
         ```
 1. Update job08-as-code docker
-
+    * Pipeline script
         ```Groovy 
         pipeline {
             agent any
