@@ -20,6 +20,13 @@ pipeline {
                  )
             }
         }
+        stage ("Publih report") {
+            agent any
+             steps{
+                 unstash "build-test-artifacts"
+                 junit "**/target/surefire-reports/TEST-*.xml"
+             }
+        }
     }
 }
     
