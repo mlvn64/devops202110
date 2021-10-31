@@ -8,10 +8,12 @@ pipeline {
                     args '-v /tmp/.m2:/root/.m2'
                 }
             }
-            
+
             steps{
                  git branch: 'master',
                             url: 'https://github.com/mzegarras/labmaven.git'
+                
+                 sh 'ls -lta ./labmaven'
             }
         }
     }
