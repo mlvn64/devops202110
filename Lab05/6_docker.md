@@ -29,7 +29,7 @@
         ```
 1. Update job08-as-code docker
 
-        ```Groovy  
+        ```Groovy 
         pipeline {
             agent any
 
@@ -51,7 +51,7 @@
         ```          
 1. Update job08-as-code docker
 
-        ```Groovy  
+        ```Groovy
         pipeline {
             agent {
                 docker {
