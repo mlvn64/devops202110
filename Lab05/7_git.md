@@ -18,7 +18,7 @@
                 stage('Build') {
                     steps {
                         echo 'Building..'
-                        sh 'npm version'
+                        sh 'mvn version'
 
                         git branch: 'master',
                             url: 'https://github.com/mzegarras/labmaven.git'
