@@ -4,9 +4,9 @@
     "pipeline"
     "Docker Pipeline"
     
-1. Crear job07-as-code docker
+1. Crear job08-as-code docker
     * Crear proyecto del estilo Pipeline.
-        * Nombre: job07-as-code
+        * Nombre: job08-as-code
         * Description: Pipeline as code
         * Pipeline script
 
@@ -27,3 +27,30 @@
             }
         }
         ```
+1. Crear job08-as-code docker
+    * Crear proyecto del estilo Pipeline.
+        * Nombre: job08-as-code
+        * Description: Pipeline as code
+        * Pipeline script
+        ```Groovy  
+
+        pipeline {
+            agent any
+            
+            stages {
+                stage('Build') {
+                    agent {
+                        docker {
+                            image 'gradle:6.7-jdk11'
+                            // Run the container on the node specified at the top-level of the Pipeline, in the same workspace, rather than on a new node entirely:
+                            reuseNode true
+                        }
+                    }
+                    steps {
+                        sh 'gradle --version'
+                    }
+                }
+            }
+        }
+        ```          
+        
