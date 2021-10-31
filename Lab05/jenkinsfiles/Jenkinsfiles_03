@@ -25,7 +25,7 @@ pipeline {
             }
         }
 
-        stage('feature-branch-stuff') {
+        /*stage('feature-branch-stuff') {
             when {
                 branch 'features/*'
             }
@@ -35,7 +35,7 @@ pipeline {
             steps {
                 echo 'run this stage - only if the branch name started with feature/'
             }
-        }
+        }*/
 
         stage ("Publish report") {
             agent any
