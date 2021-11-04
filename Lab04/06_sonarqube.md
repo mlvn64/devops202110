@@ -2,7 +2,7 @@
 1. Limpiar
     ```bash
     cd ~/devops202110/Lab04
-    docker-compose -f docker-compose-runtimes.yaml rm -f
+    docker-compose rm -f
     ```
         
 1. Iniciar jenkins con sonarque
