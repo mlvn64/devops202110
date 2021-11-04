@@ -13,6 +13,7 @@
     sonar.sources=src/main
     sonar.sourceEncoding=UTF-8
     sonar.language=java
+    
     # Tests
     sonar.tests=src/test
     sonar.junit.reportsPath=target/surefire-reports
