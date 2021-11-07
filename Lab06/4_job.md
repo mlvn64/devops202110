@@ -9,10 +9,10 @@
     * Credentials: githubuser
 
 1. En la sección, Behaviours:
-    * Eliminar todo
+    * No eliminar, "Discover branches"
     * Seleccionar "Filter by name (with wildcards)"
     * En la sección "Include", 
-    * main|master|develop|release.*|features.*|bugfix.*
+    * master features/*
 
 1. En la sección, Build Configuration:
     * Mode: "by Jenkinsfiles"
