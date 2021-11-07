@@ -15,13 +15,6 @@
     1. Clic Avialable
     1. Buscar Plugin: "JaCoCo"
 
-## Notifications
-1. GitHub Notify
-    1. Manage Jenkins
-    1. Manage Plugins
-    1. Clic Avialable
-    1. Buscar Plugin: "GitHub Notify"
-
 1. Crear job10-as-code docker
     * Crear proyecto del estilo Pipeline.
         * Nombre: job10-as-code
