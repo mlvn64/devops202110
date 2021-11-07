@@ -13,7 +13,7 @@
     sonar.sources=src/main
     sonar.sourceEncoding=UTF-8
     sonar.language=java
-    
+
     # Tests
     sonar.tests=src/test
     sonar.junit.reportsPath=target/surefire-reports
@@ -21,6 +21,7 @@
     sonar.jacoco.reportPath=target/jacoco.exec
     sonar.java.binaries=target/classes
     sonar.java.coveragePlugin=jacoco
+    sonar.coverage.jacoco.xmlReportPaths=target/jacoco.xml
 
     sonar.exclusions=**/*IT.java,**/*TEST.java,**/*Test.java,**/src/it**,**/src/test**,**/gradle/wrapper**
     sonar.java.libraries=target/*.jar
