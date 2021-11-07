@@ -1,5 +1,5 @@
-# Plugins
-Copy Artifact Plugin
 
-gituser-credentials
-docker-credentials
+
+## Proteger branch master
+1. Ir a: github.com
+1.
