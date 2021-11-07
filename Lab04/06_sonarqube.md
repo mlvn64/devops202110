@@ -16,4 +16,5 @@
     mkdir -p sonarqube_home/temp
 
     docker-compose -f docker-compose-sonarqube.yaml up -d
+    docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
     ```

@@ -1,7 +1,6 @@
 1. Generar imagen
     ```bash
     cd ~/devops202110/Lab04
-    docker-compose build
     ```
 
 1. Iniciar docker-compose con remote machine
