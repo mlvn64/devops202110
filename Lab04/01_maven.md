@@ -1,5 +1,13 @@
 # Maven
 ## Settings
+1. Instalar plugins maven
+    1. Login
+    1. Manage Jenkins
+    1. Manage Plugins
+    1. Clic Avialable
+    1. Buscar Plugin: "Maven Integration"
+    1. Buscar Plugin: "Git"
+    
 1. Instalar maven
     1. Manage Jenkins
     1. Global Tool Configuration
@@ -8,13 +16,7 @@
         * Name: maven-default
         * Install automatically: Check
 
-1. Instalar plugins maven
-    1. Login
-    1. Manage Jenkins
-    1. Manage Plugins
-    1. Clic Avialable
-    1. Buscar Plugin: "Maven Integration"
-    1. Buscar Plugin: "Git"
+
 
 # JOBS
 1. Crear job6-maven
