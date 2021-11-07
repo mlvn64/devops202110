@@ -51,7 +51,7 @@
                             junit(testResults: '**/surefire-reports/*.xml', allowEmptyResults: true)
                             junit(testResults: '**/failsafe-reports/*.xml', allowEmptyResults: true)
                             archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
-                            jacoco()
+                            jacoco runAlways: true
                         }
                     }
                 }
