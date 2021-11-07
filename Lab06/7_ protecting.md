@@ -2,7 +2,7 @@
 
 1. En el repositorio, seleccionar Settings > Branches
 1. En la sección ”Branch protection rules”, clic en "Add rule"
-1. En la sección "Branch name pattern”, ingresar "master"
+1. En la sección "Branch name pattern”, ingresar "main"
 1. Habilitar los siguiente settings:
     * Require a pull request before merging
         * Require approvals
