@@ -10,7 +10,9 @@
     ```bash
     cd 03_java/1.1
     docker build -t java01 .
-    docker run -p 8080:8085 java01
+    docker images
+    docker images|grep java01
+    docker run -p 8080:8080 java01
 
     ```
 
@@ -22,7 +24,7 @@
     ```bash
     cd 03_java/1.2
     docker build -t java02 .
-    docker run -p 8080:8085 java02
+    docker run -p 8080:8080 java02
 
     ```
 
