@@ -2,7 +2,9 @@ version: "3.8"
 services:
   jenkins:
     container_name: jenkins
-    image: jenkins/jenkins
+    #image: jenkins/jenkins
+    #image: jenkins/jenkins:latest
+    image: jenkins/jenkins:2.319-jdk11
     ports:
       - 8080:8080
     volumes:
