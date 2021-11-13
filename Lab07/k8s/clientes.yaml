@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: lab01
-          image: mlvn64/java01
+          image: mlvn64/ventocilla
           resources:
             limits:
               cpu: 500m
